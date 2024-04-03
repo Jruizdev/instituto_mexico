@@ -1,0 +1,72 @@
+:root {
+	--color_texto_sec: #FFF;
+	--color_primario: #073763;
+	--color_complementario: #f59b00;
+	--color_complementario_hover: #c77e00;
+	--color-secundario: #ebebeb;
+	--color_primario_hover: #0c457a;
+	--color_error: #cf1515;
+    --color-form: #ebebeb;
+}
+
+.navbar {
+    background-color: var(--color_primario);
+}
+.offcanvas {
+    background-color: var(--color_primario);
+    color: var(--color_texto_sec);
+}
+.nav-item :hover {
+    background-color: var(--color_primario_hover);
+}
+.nav-item a:hover,
+.navbar-brand:hover {
+    cursor: pointer;
+	color: var(--color_texto_sec);
+} 
+footer {
+    background-color: var(--color_primario);
+}
+.formulario {
+    background-color: var(--color-form);
+}
+.formulario-dark {
+	background-color: var(--color_primario);
+}
+.formulario-dark h3 {
+	color: var(--color_texto_sec);
+}
+.formulario-dark button {
+	background-color: var(--color_complementario);
+	color: black;
+	border-color: var(--color_complementario_hover);
+}
+.formulario-dark button:hover {
+	background-color: var(--color_complementario_hover);
+}
+.formulario-dark .error {
+	color: var(--color_complementario);
+}
+.formulario-light {
+	background-color: var(--color_texto_sec);
+}
+.error {
+    color: var(--color_error);
+}
+img.fondo {
+	height: 100vh;
+	margin: 0;
+	position: fixed;
+	opacity: 0.3;
+	z-index: -1;
+	object-fit: cover;
+}
+.text-bg-secondary .card-body {
+	background-color: var(--color_primario);
+}
+.text-bg-secondary .card-body h6 {
+	background-color: var(--color_complementario);
+}
+thead.table-dark th {
+	background-color: var(--color_primario);
+}
